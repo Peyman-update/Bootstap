@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/Style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-header bg-secondary">
+        <div class="container">
+          <div class="top-nav">
+            <ul>
+              <li><i class="fa-solid fa-phone"></i>09332045530</li>
+              <li><i class="fa-solid fa-envelope"></i>Khezli1999@gmail.com</li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-user"></i>Login | Signup</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header-navbar">
+          <nav class="navbar navbar-expand-md justify-content-center">
+            <a href="#" class="navbar-brand">
+              <!-- <img
+                src="img/120.png"
+                class="img-fluid"
+                style="width: 100px"
+                alt=""
+              /> -->
+              <span style="color: #ff6819">Mahan</span>
+              <span style="color: #282828">Air</span>
+            </a>
+            <!-- Toggler/collapsibe Button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsibleNavbar"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto" style="direction: rtl">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">رزرو بلیت</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">اطلاعات سفر</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">در طول سفر</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">مقاصد پروازی</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">باشگاه مسافران ویژه </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Banner -->
+    <section id="Banner">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="img/Banner.jpg"
+              class="img-fluid position-absolute"
+              style="object-fit: cover; width: 100%"
+              alt="Iran"
+            />
+            <div class="container">
+              <div class="caption">
+                <h4>Relax & Enjoy</h4>
+                <h1>it's Time to Adventure</h1>
+                <button class="btn btn-secondary">Take a Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/Banner2.jpg"
+              class="img-fluid position-absolute"
+              style="object-fit: cover; width: 100%"
+              alt="Iran"
+            />
+            <div class="container">
+              <div class="caption">
+                <h4>Relax & Enjoy</h4>
+                <h1>it's Time to Adventure</h1>
+                <button class="btn btn-secondary">Take a Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/Banner4.jpg"
+              class="img-fluid position-absolute"
+              style="object-fit: cover; width: 100%"
+              alt="Iran"
+            />
+            <div class="container">
+              <div class="caption">
+                <h4>Relax & Enjoy</h4>
+                <h1>it's Time to Adventure</h1>
+                <button class="btn btn-secondary">Take a Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/Banner5.jpg"
+              class="img-fluid position-absolute"
+              style="object-fit: cover; width: 100%"
+              alt="Iran"
+            />
+            <div class="container">
+              <div class="caption">
+                <h4>Relax & Enjoy</h4>
+                <h1>it's Time to Adventure</h1>
+                <button class="btn btn-secondary">Take a Tour</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/Banner3.jpg"
+              class="img-fluid position-absolute"
+              style="object-fit: cover; width: 100%"
+              alt="Iran"
+            />
+            <div class="container">
+              <div class="caption">
+                <h4>Relax & Enjoy</h4>
+                <h1>it's Time to Adventure</h1>
+                <button class="btn btn-secondary">Take a Tour</button>
+              </div>
+            </div>
+          </div>
+          ...
+        </div>
+      </div>
+    </section>
+    <!--End Banner -->
+
+    <!-- Search section -->
+    <section id="search">
+      <div class="container">
+        <div class="search-option">
+          <div class="item">
+            <h5 class="h5">Where</h5>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Your destination"
+            />
+          </div>
+          <div class="item">
+            <h5 class="h5">Date</h5>
+            <input class="form-control" type="date" placeholder="Select Date" />
+          </div>
+          <div class="item">
+            <h5 class="h5">Guestss</h5>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Total Person"
+            />
+          </div>
+          <div class="item">
+            <div class="btn btn-theme">
+              <i class="fa-solid fa-magnifying-glass"></i>Check Availability
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Search section -->
+    <!-- Featured Section -->
+    <section id="featured">
+      <div class="container">
+        <div class="title">
+          <h4 class="title-primary">Perfect Holiday</h4>
+          <h4 class="h1 h1-reponsive title-secondary">Featured Places</h4>
+        </div>
+        <div class="row px-0 py-5">
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img src="img/kashan-bazaar.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img src="img/shiraz.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img src="img/Esfahan.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img
+                  src="img/eram-garden-shiraz.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img
+                  src="img/tomb-of-hafez-shiraz-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img src="img/persepolis.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img src="img/kerman.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-1 my-3">
+            <div class="card-design">
+              <div class="image">
+                <img src="img/old-town-yazd-2.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="card-text shadow">
+                <div class="item">
+                  <span><i class="fa-solid fa-star"></i>(5k+)</span>
+                  <h5 class="h5">Places</h5>
+                </div>
+                <div class="item">
+                  <button class="btn btn-light">$ 758</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ShowCase -->
+    <section id="showcase">
+      <div class="container">
+        <div class="title py-5">
+          <h4 class="title-primary">Holiday</h4>
+          <h4 class="h1 h1-reponsive title-secondary">Go & Discover</h4>
+        </div>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="" src="img/Esfahan.jpg" alt="Esfahan" />
+          </div>
+          <div class="swiper-slide">
+            <img class="" src="img/shiraz.jpg" alt="Esfahan" />
+          </div>
+          <div class="swiper-slide">
+            <img class="" src="img/kerman.jpg" alt="Esfahan" />
+          </div>
+          <div class="swiper-slide">
+            <img class="" src="img/eram-garden-shiraz.jpg" alt="Esfahan" />
+          </div>
+          <div class="swiper-slide">
+            <img class="" src="img/kashan-bazaar.jpg" alt="Esfahan" />
+          </div>
+          <div class="swiper-slide">
+            <img class="" src="img/old-town-yazd-2.jpg" alt="Esfahan" />
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card-design">
+                <i class="fa-solid fa-location-dot"></i>
+                <h4 class="h4 h4-responsive">Handpocked Hotels</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  similique consectetur ipsam facere. Incidunt aut deserunt
+                  soluta consectetur temporibus esse sed vero iusto dolorum in
+                  praesentium velit, minima porro est!
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-design">
+                  <i class="fa-solid fa-earth-asia"></i>
+                <h4 class="h4 h4-responsive">World Class Service</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  similique consectetur ipsam facere. Incidunt aut deserunt
+                  soluta consectetur temporibus esse sed vero iusto dolorum in
+                  praesentium velit, minima porro est!
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-design">
+                  <i class="fa-solid fa-coins"></i>
+                <h4 class="h4 h4-responsive">Best Price Guarantee</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  similique consectetur ipsam facere. Incidunt aut deserunt
+                  soluta consectetur temporibus esse sed vero iusto dolorum in
+                  praesentium velit, minima porro est!
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EndShowCase -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      // Custom JavaScript Code
+
+      // Banner
+      var swiper = new Swiper("#Banner .swiper", {
+        loop: true,
+        autoplay: true,
+      });
+      // ShowCase
+      var swiper = new Swiper("#showcase .swiper-container", {
+        loop: true,
+        autoplay: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+      });
+    </script>
+  </body>
+</html>
